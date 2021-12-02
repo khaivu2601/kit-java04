@@ -11,9 +11,9 @@ import java.util.Scanner;
  * @author Khaivu
  */
 public class SinhVien {
-     private String hoTen;
-    private String lop;
-    private int namSinh;
+     protected String hoTen;
+    protected String lop;
+    protected int namSinh;
 
     public SinhVien(String hoTen, String lop, int namSinh) {
         this.hoTen = hoTen;
