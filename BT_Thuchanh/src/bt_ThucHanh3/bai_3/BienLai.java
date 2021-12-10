@@ -11,7 +11,7 @@ import java.util.Scanner;
  * @author Khaivu
  */
 public class BienLai extends KhachHang{
-    public int chiSoCu,chiSoMoi;
+    private int chiSoCu,chiSoMoi;
 
     public BienLai(int chiSoCu, int chiSoMoi, String hoTen, String soNha, int maSo) {
         super(hoTen, soNha, maSo);

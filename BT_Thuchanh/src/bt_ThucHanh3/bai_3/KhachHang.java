@@ -56,6 +56,7 @@ public class KhachHang {
         soNha = sc.nextLine();
         System.out.println("nhập mã số : ");
         maSo = sc.nextInt();
+        
     }
     
     public void xuatTT() {
